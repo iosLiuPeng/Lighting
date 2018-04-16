@@ -100,21 +100,21 @@
 /// 检查连通状态
 - (void)checkConnectedState:(PipeLineModel *)pipeLine
 {
-//    // 判断通电状态
-//    for (PipeLineModel *aPipeLine in _arrAllPipes) {
-//        aPipeLine.isConnected = [self checkPipeLineConnect:aPipeLine];
-//    }
-
-    // 判断当前管道的连通状态
-    pipeLine.isConnected = [self checkPipeLineConnect:pipeLine];
-    
-    // 对应四个方向的管道，判断连通状态
-    NSArray *arrAdjoinPipes = [self adjoinPipeLineArrayWithPipeLine:pipeLine];
-    for (PipeLineModel *aPipeLine in arrAdjoinPipes) {
-        if (![aPipeLine isKindOfClass:[NSNull class]]) {
-            aPipeLine.isConnected = [self checkPipeLineConnect:aPipeLine];
-        }
+    // 判断通电状态
+    for (PipeLineModel *aPipeLine in _arrAllPipes) {
+        aPipeLine.isConnected = [self checkPipeLineConnect:aPipeLine];
     }
+
+//    // 判断当前管道的连通状态
+//    pipeLine.isConnected = [self checkPipeLineConnect:pipeLine];
+//
+//    // 对应四个方向的管道，判断连通状态
+//    NSArray *arrAdjoinPipes = [self adjoinPipeLineArrayWithPipeLine:pipeLine];
+//    for (PipeLineModel *aPipeLine in arrAdjoinPipes) {
+//        if (![aPipeLine isKindOfClass:[NSNull class]]) {
+//            aPipeLine.isConnected = [self checkPipeLineConnect:aPipeLine];
+//        }
+//    }
 }
 
 /// 检查通电状态
