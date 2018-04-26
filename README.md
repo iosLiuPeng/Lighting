@@ -16,6 +16,6 @@
 
 
 --------------------------------
-[image-connect]:/image/connect.png
+[image-connect]:/image/connect.PNG
 [image-map]:/image/map.png
-[image-win]:/image/win.png
+[image-win]:/image/win.PNG
