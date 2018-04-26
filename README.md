@@ -4,17 +4,17 @@
 游戏目标：将所有管道连通  
 
 游戏中  
-[![游戏中图片]][img-connect]
+[![游戏中图片]][image-connect]
 
 
 游戏胜利  
-[![游戏胜利图片]][img-win]
+[![游戏胜利图片]][image-win]
 
 
 可自定义地图，下图配置文件为默认的一幅地图  
-[![地图]][img-map]
+[![地图]][image-map]
 
 
-[img-connect]:/image/connect.png
-[img-map]:/image/map.png
-[img-win]:/image/win.png
+[image-connect]:/image/connect.png
+[image-map]:/image/map.png
+[image-win]:/image/win.png
