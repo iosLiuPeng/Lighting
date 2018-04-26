@@ -12,9 +12,10 @@
 
 
 可自定义地图，下图配置文件为默认的一幅地图  
-[![地图]][image-map]
+![地图][image-map]
 
 
+--------------------------------
 [image-connect]:/image/connect.png
 [image-map]:/image/map.png
 [image-win]:/image/win.png
