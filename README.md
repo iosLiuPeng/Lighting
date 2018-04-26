@@ -16,6 +16,6 @@
 
 
 --------------------------------
-[image-connect]:/image/connect.PNG
+[image-connect]:/image/connect.PNG =366x459
 [image-map]:/image/map.png
-[image-win]:/image/win.PNG
+[image-win]:/image/win.PNG =366x459
